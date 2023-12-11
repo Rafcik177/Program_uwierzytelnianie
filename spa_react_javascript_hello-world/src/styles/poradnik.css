@@ -1,0 +1,91 @@
+.poradnik_akapit{
+    font-size: 19px;
+    text-align: justify;
+}
+.naglowek_section{
+    margin-top:50px;
+}
+.section_title{
+    color:lightgreen;
+    text-align: center;
+}
+
+.lista-bad{
+    line-height: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    font-weight: no;
+    padding: 30px;
+    color: #620c0c;
+}
+.lista-good{
+    line-height: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    font-weight: no;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+.lista-bad dt {
+    flex: 1 0 30%; /* Trzy elementy w pierwszym wierszu, dwa elementy w drugim */
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    top:50%;
+    background-color: #ea4e4e;
+  }
+  .lista-good dt {
+    flex: 1 0 30%; /* Trzy elementy w pierwszym wierszu, dwa elementy w drugim */
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    top:50%;
+    background-color: rgb(50, 163, 50);
+  }
+li:nth-child(4),
+    .item:nth-child(5) {
+      flex-basis: 45%; /* Ustaw szerokość dla drugiego wiersza */
+    }
+.section_poradnik
+{
+    text-align:left;
+}
+.pass_img
+{
+    margin:0 auto;
+    display:block;
+    width:75%;
+}
+.bio_img
+{
+    margin:0 auto;
+    display:block;
+    width:50%;
+}
+
+.lista-good2{
+    line-height: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    font-weight: no;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    
+}  .lista-good2 dt {
+    flex: 1 0 40%; /* Trzy elementy w pierwszym wierszu, dwa elementy w drugim */
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    top:50%;
+    background-color: rgb(50, 163, 50);
+  }

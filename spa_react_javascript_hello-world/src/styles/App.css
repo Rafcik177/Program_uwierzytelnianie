@@ -100,7 +100,7 @@ body{
 }
 .why_be_safe_warrior p {
   justify-content: space-around;
-  background-color: rgb(71, 241, 142);
+  background-color: #3ee25a;
   color:black;
   padding: 20px;
   margin:10px;
@@ -129,7 +129,7 @@ h1{
 }
 .how_start_be_safe_warrior p {
  font-size:20px;
- background-color: rgb(71, 241, 142);
+ background-color: #3ee25a;
  padding: 40px;
  margin:30px;
  color:black;
@@ -141,7 +141,7 @@ h1{
   color:black;
   align-items: center;
   justify-content: center;
-  background-color: rgb(71, 241, 142);
+  background-color: #3ee25a;
   text-align: center;
   padding: 40px;
   margin:30px;
@@ -208,7 +208,7 @@ input:focus {
     cursor: pointer;
 }
 .btn:hover {
-  background: rgb(71, 241, 142)!important;
+  background: #3ee25a!important;
   color:black!important;
 }
 .login-signup-form {

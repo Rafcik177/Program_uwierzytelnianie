@@ -92,7 +92,7 @@ export const SilaHasla = () => {
             Sprawdzanie <span style={{ color: '#5dc72f', fontWeight: '700' }}>SIŁY </span> hasła
             ***
           </h1>
-          <div className='opis col-xl-7'>
+          <div className='opis col-xl-9'>
             <span style={{ fontSize: 40 }}>🔐</span><br />Jak to działa?<br />
             <p className='tekst_opisu '>Wprowadź swoje hasło w poniższe okienko, a my przeprowadzimy kompleksową analizę jego siły. Ten algorytm uwzględnia różnorodne czynniki, takie jak długość, unikalność, stosowanie wielkich i małych liter, liczby oraz znaki specjalne. Otrzymasz szczegółową ocenę i wskazówki, jak zwiększyć bezpieczeństwo Twojego hasła.</p>
             <span style={{ fontSize: 40 }}>🛡️</span><br />Dlaczego to ważne?<br /> 
@@ -131,7 +131,10 @@ export const SilaHasla = () => {
               <span style={{ color: specjalne }}>Hasło zawiera znaki specjalne</span> <br /><br />
 
             </div>
-
+                 {testResult.score==4 && 
+                 <p style={{ color: 'green' }}>Teraz wiesz, jak tworzyć silne hasła. Zastosuj silne hasła do wszystkich swoich kont.</p>
+                 
+                 } 
 
           </div>
         </div>

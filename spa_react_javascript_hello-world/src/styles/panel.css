@@ -15,14 +15,14 @@
     align-items: center;
     justify-content: center;
     width:30%;
-    background-color: #5dc72f;
+    background-color: #3ee25a;
     margin:2%;
     transition: transform 0.3s ease-in-out;
     font-size:22px;
     height: 200px;
     cursor:pointer;
     text-decoration: none;
-    color:white;
+    color:#2f2f2f;
     font-weight: 500;
 }
 .zawartosc_kafelka{

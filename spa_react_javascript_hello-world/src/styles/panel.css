@@ -1,0 +1,90 @@
+.pojemnik{
+    
+    margin-top:50px;
+    font-size:18px;
+}
+.panel_kafelki {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.kafelek{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:30%;
+    background-color: #5dc72f;
+    margin:2%;
+    transition: transform 0.3s ease-in-out;
+    font-size:22px;
+    height: 200px;
+    cursor:pointer;
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+}
+.zawartosc_kafelka{
+    width: 100%;
+    text-align: center;
+}
+.kafelek:hover{
+    transform: scale(1.15);
+    
+}
+.icon-certyfikat {
+    font-size: 48px;
+    color: #5dc72f;
+    
+}
+.icon-LuSword,
+.icon-MdPassword, 
+.icon-IoMdFingerPrint,
+.icon-FaGears,
+.icon-IoHappyOutline{
+    font-size:40px;
+    
+}
+.icon-caret-right{
+    font-size:30px;
+}
+
+
+.opis{
+    text-align: center;
+    margin: auto;
+}
+
+.tekst_opisu
+{
+    text-align: justify;
+}
+.form{
+    color: black;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    height: 600px;
+    padding: 3%;
+    border-radius: 15px;
+}
+input[type='checkbox']{
+    width: auto;
+}
+
+.sila_hasla_legenda{
+    text-align: left;
+    margin: auto;
+    margin: auto;
+}
+.rada_specjalne{
+    padding:10px;
+    background-color: rgb(254, 176, 29);
+    border: solid 1px black;
+    color:black;
+    border-radius: 15px;
+}
+.progress-bar{
+    background-color: #4bd112!important;
+}

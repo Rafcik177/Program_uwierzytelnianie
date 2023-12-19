@@ -47,14 +47,14 @@ export const Panel = () => {
   </Link>
   <Link to="/wdrazanie" className="kafelek">
     <div className='zawartosc_kafelka'>
-      <FaGears className="icon-FaGears" /><br />
-      Wdróż zdobytą wiedzę
+    {/*   <FaGears className="icon-FaGears" /><br />
+      Wdróż zdobytą wiedzę */}
     </div>
   </Link>
-  <Link to="/konto" className="kafelek">
+  <Link to="/profil" className="kafelek">
     <div className='zawartosc_kafelka'>
       <IoHappyOutline className="icon-IoHappyOutline " /><br />
-      Twoje konto
+      Twoje konto 
     </div>
   </Link>
 </div>

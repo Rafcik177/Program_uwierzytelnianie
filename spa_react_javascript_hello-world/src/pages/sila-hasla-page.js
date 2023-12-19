@@ -93,12 +93,12 @@ export const SilaHasla = () => {
             ***
           </h1>
           <div className='opis col-xl-9'>
-            <span style={{ fontSize: 40 }}>🔐</span><br />Jak to działa?<br />
+            <span style={{ fontSize: 40 }}>🔐</span><br /><strong>Jak to działa?</strong><br />
             <p className='tekst_opisu '>Wprowadź swoje hasło w poniższe okienko, a my przeprowadzimy kompleksową analizę jego siły. Ten algorytm uwzględnia różnorodne czynniki, takie jak długość, unikalność, stosowanie wielkich i małych liter, liczby oraz znaki specjalne. Otrzymasz szczegółową ocenę i wskazówki, jak zwiększyć bezpieczeństwo Twojego hasła.</p>
-            <span style={{ fontSize: 40 }}>🛡️</span><br />Dlaczego to ważne?<br /> 
+            <span style={{ fontSize: 40 }}>🛡️</span><br /><strong>Dlaczego to ważne?</strong><br /> 
             <p className='tekst_opisu '>W dobie wzrastających zagrożeń w cyberprzestrzeni, silne hasło jest pierwszą linią obrony przed nieuprawnionym dostępem. Ta aplikacja pomaga Ci świadomie zadbać o bezpieczeństwo swoich danych, umożliwiając dostęp do narzędzi niezbędnych do stworzenia solidnego hasła.</p>
             
-            <span style={{ fontSize: 40 }}>🚀</span><br />Ochrona Twojej Prywatności<br />
+            <span style={{ fontSize: 40 }}>🚀</span><br /><strong>Ochrona Twojej Prywatności</strong><br />
             <p className='tekst_opisu '> Jako platforma, dbamy o Twoją prywatność. Żadne wprowadzone przez Ciebie dane nie są przechowywane, co gwarantuje pełną dyskrecję w procesie sprawdzania siły hasła.</p>
 
             <p style={{ padding: 20 }}><b>Gotowy na rozpoczęcie? Sprawdź siłę swojego hasła już teraz!</b></p>

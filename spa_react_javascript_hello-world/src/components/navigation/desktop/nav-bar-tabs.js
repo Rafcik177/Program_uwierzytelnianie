@@ -7,14 +7,18 @@ export const NavBarTabs = () => {
 
   return (
     <div className="nav-bar__tabs">
-      <NavBarTab path="/panel" label="Panel" />
-      <NavBarTab path="/public" label="Public" />
+      <NavBarTab path="/sila-hasla" label="Siła Hasła" />
+      <NavBarTab path="/poradnik" label="Poradnik" />
       {isAuthenticated && (
         <>
-          <NavBarTab path="/protected" label="Protected" />
-          <NavBarTab path="/admin" label="Admin" />
+               <NavBarTab path="/profil" label="Profil" />
+               <NavBarTab path="/panel" label="Panel" />
+          
         </>
       )}
+  
+      
     </div>
   );
 };
+//GZ8LEJRLKNRZVGBFUGRSV7CJ

@@ -11,6 +11,7 @@ export const NavBarBrand = () => {
           alt="Be Safe Warrior logo"
 
         />
+        <span className="Brand-title"><span style={{ color: "red" }}>Be</span> Safe Warrior</span>
       </NavLink>
     </div>
   );

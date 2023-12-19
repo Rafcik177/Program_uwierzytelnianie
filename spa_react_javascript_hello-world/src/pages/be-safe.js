@@ -4,7 +4,7 @@ import { PageLayout } from "../components/page-layout";
 import { FaFingerprint } from "react-icons/fa";
 import { MdOutlinePassword } from "react-icons/md";
 import { TbSquareRoundedNumber1, TbSquareRoundedNumber2, TbSquareRoundedNumber3, TbSquareRoundedNumber4 } from "react-icons/tb";
-
+import { Link } from "react-router-dom";
 export const BeSafe = () => {
   return (
     <PageLayout>
@@ -62,6 +62,10 @@ export const BeSafe = () => {
                   Korzystaj z menadżera haseł, który za Ciebie zapamięta wszystkie hasła.
                 </dt>
               </dl>
+              <p className="poradnik_akapit" style={{ textAlign: "center", background:"white", padding: "100px", color:"black", borderRadius:"40px", margin: "90px" }}> <span style={{ fontSize: 40 }}>🔐</span><br />
+              Skorzystaj z narzędzia do tworzenia silnych haseł i sprawdzania swojego bezpieczeństwa! <br /><strong ><Link to="/sila-hasla" style={{ color: "green" }}>  &gt; &gt; Siła hasła &lt; &lt;</Link></strong> 
+            </p>
+           
             </section>
             <section className="section_poradnik">
               <h2 className="section_title"> Piny <br /><span className="emoji2"><TbSquareRoundedNumber1 /><TbSquareRoundedNumber2 /><TbSquareRoundedNumber3 /><TbSquareRoundedNumber4 /></span></h2>
@@ -111,11 +115,11 @@ export const BeSafe = () => {
                 Włącz uwierzytelnianie dwuskładnikowe tam, gdzie to możliwe. To dodatkowy poziom ochrony, który wymaga potwierdzenia tożsamości za pomocą dodatkowego kodu. Uwierzytelnianie wieloskładnikowe jest jedną z metod zabezpieczania dostępu do systemów, kont użytkowników czy danych poprzez wykorzystanie co najmniej dwóch różnych czynników uwierzytelniania. W ten sposób można bardziej zabezpieczyć nasze dane czy konta, ponieważ bezpieczeństwo nie opiera się wyłącznie na jednym składniku, lecz na co najmniej dwóch, a co za tym idzie szanse, by osoba podszywająca się pod nas miała uzyskać dostęp są coraz niższe, w zależności od wzrostu stopnia zabezpieczeń.
               </p>
               <p className="poradnik_akapit">
-              Włączając uwierzytelnianie dwuskładnikowe, znacznie podniesiesz poziom bezpieczeństwa swojego konta online. Pamiętaj, że inwestycja w bezpieczeństwo internetowe to inwestycja w bezpieczeństwo Twoich danych i prywatności.
+                Włączając uwierzytelnianie dwuskładnikowe, znacznie podniesiesz poziom bezpieczeństwa swojego konta online. Pamiętaj, że inwestycja w bezpieczeństwo internetowe to inwestycja w bezpieczeństwo Twoich danych i prywatności.
               </p>
 
 
-              
+
               <section className="naglowek_section">Dlaczego Warto Włączyć Uwierzytelnianie Dwuskładnikowe?</section>
               <dl className="lista-good2">
                 <dt>
@@ -142,20 +146,7 @@ export const BeSafe = () => {
                 </dt>
               </dl>
             </section>
-            <section className="section_poradnik">
-              <h2 className="section_title">
-                Ostrzeżenia Dotyczące Phishingu
-              </h2>
-              <p className="poradnik_akapit">
-                Bądź czujny na próby phishingu. Nie otwieraj linków ani nie pobieraj załączników z podejrzanych źródeł. Upewnij się, że strony, na których podajesz swoje dane, są bezpieczne (szyfrowane, oznaczone jako HTTPS).
-              </p>
-              <dl className="lista-good">
-                <dt>
-                  <strong></strong><br />
 
-                </dt>
-              </dl>
-            </section>
           </span>
 
 

@@ -8,29 +8,38 @@ export const MobileNavBarTabs = ({ handleClick }) => {
   return (
     <div className="mobile-nav-bar__tabs">
       <MobileNavBarTab
-        path="/profile"
-        label="Profile"
+        path="/poradnik"
+        label="Poradnik"
         handleClick={handleClick}
       />
       <MobileNavBarTab
-        path="/public"
-        label="Public"
+        path="/poradnik"
+        label="Poradnik"
         handleClick={handleClick}
       />
+      <MobileNavBarTab
+        path="/sila-hasla"
+        label="Siła Hasła"
+        handleClick={handleClick}
+      /> 
       {isAuthenticated && (
         <>
           <MobileNavBarTab
-            path="/protected"
-            label="Protected"
+            path="/panel"
+            label="Panel"
             handleClick={handleClick}
           />
           <MobileNavBarTab
-            path="/admin"
-            label="Admin"
+            path="/profil"
+            label="Profil"
             handleClick={handleClick}
           />
         </>
       )}
+      
+      
+    
+      
     </div>
   );
 };

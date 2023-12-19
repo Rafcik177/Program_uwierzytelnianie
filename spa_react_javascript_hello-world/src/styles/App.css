@@ -2,18 +2,22 @@
   background: #181a1b;
   color:white;
   min-height: 100vh;
+  
 }
 body{
   background: #181a1b;
   color:white;
-  
+  scroll-behavior:smooth;
 }
 .App-logo {
   pointer-events: none;
 }
-
+.Brand-title
+{
+  font-size:30px;
+}
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .nav-bar__logo {
     animation: App-logo-spin infinite 4s;
   }
 }

@@ -62,7 +62,7 @@ export const BeSafe = () => {
                   Korzystaj z menadżera haseł, który za Ciebie zapamięta wszystkie hasła.
                 </dt>
               </dl>
-              <p className="poradnik_akapit" style={{ textAlign: "center", background:"white", padding: "100px", color:"black", borderRadius:"40px", margin: "90px" }}> <span style={{ fontSize: 40 }}>🔐</span><br />
+              <p className="poradnik_akapit" style={{ textAlign: "center", background:"white", padding: "100px", color:"black", borderRadius:"40px", marginTop: "90px", marginBottom: "90px" }}> <span style={{ fontSize: 40 }}>🔐</span><br />
               Skorzystaj z narzędzia do tworzenia silnych haseł i sprawdzania swojego bezpieczeństwa! <br /><strong ><Link to="/sila-hasla" style={{ color: "green" }}>  &gt; &gt; Siła hasła &lt; &lt;</Link></strong> 
             </p>
            

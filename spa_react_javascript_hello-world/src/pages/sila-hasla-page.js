@@ -132,10 +132,22 @@ export const SilaHasla = () => {
             {testResult.sequence.length !== 0 ? <><strong>Znalezione ciągi</strong></> : ""}
             <ul>
               {testResult.sequence.map((item, index) => (
-                <li className="listasequence" key={index}>
-                  Wzór: {item.pattern} <> </> 
-                  Token: {item.token}<br />
+                 <React.Fragment key={index}>
+                {item.pattern==='bruteforce' ? 
+                (
+                  <li className="listasequence" key={index}>
+                  Fragment: "{item.token}" nie należy do żadnego słownika, daty, czy sekwencji, zatem do uzyskania tej części hasła należy użyć metody siłowej.  
                 </li>
+                )
+                :
+                (
+                  <li className="listasequence" key={index}>
+                  Wzór: {item.pattern} <> </> 
+                  fragment: {item.token}<br />
+                </li>
+                )
+                }
+                </React.Fragment>
               ))}
             </ul>
           </div>

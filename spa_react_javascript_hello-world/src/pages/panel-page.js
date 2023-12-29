@@ -29,26 +29,13 @@ export const Panel = () => {
       Twórz silne hasła
     </div>
   </Link>
-  <Link to="/biometria" className="kafelek">
+  
+</div>
+<div className='panel_kafelki'>
+<Link to="/biometria" className="kafelek">
     <div className='zawartosc_kafelka'>
       <IoMdFingerPrint className="icon-IoMdFingerPrint" /><br />
       Użyj biometrii
-    </div>
-  </Link>
-</div>
-<div className='panel_kafelki'>
-  <Link to="/wieloetapowe" className="kafelek">
-    <div className='zawartosc_kafelka'>
-      Krok 1 <AiOutlineCaretRight className="icon-caret-right" />
-      Krok 2 <AiOutlineCaretRight className="icon-caret-right" />
-      Krok 3 <AiOutlineCaretRight className="icon-caret-right" />
-      Uwierzytelnianie wieloetapowe
-    </div>
-  </Link>
-  <Link to="/wdrazanie" className="kafelek">
-    <div className='zawartosc_kafelka'>
-    {/*   <FaGears className="icon-FaGears" /><br />
-      Wdróż zdobytą wiedzę */}
     </div>
   </Link>
   <Link to="/profil" className="kafelek">

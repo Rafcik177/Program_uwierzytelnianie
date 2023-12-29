@@ -1,6 +1,7 @@
 {
-  "name": "spa_react_javascript_hello-world",
+  "name": "besafewarrior",
   "version": "0.1.0",
+  "homepage": "http://besafewarrior.pl",
   "private": true,
   "dependencies": {
     "@auth0/auth0-react": "^2.0.0",

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.377745f1.css",
+    "main.js": "/static/js/main.bed9f330.js",
+    "static/media/orange_odcisk_palca.png": "/static/media/orange_odcisk_palca.20d6b25d1d1bea7f5db3.png",
+    "static/media/mbank_odcisk_palca.png": "/static/media/mbank_odcisk_palca.6052f67f6f2c4d88bb44.png",
+    "static/media/finger.png": "/static/media/finger.24dc119f7976fa9cc9f1.png",
+    "static/media/pin.png": "/static/media/pin.92055273209fae4d224e.png",
+    "index.html": "/index.html",
+    "main.377745f1.css.map": "/static/css/main.377745f1.css.map",
+    "main.bed9f330.js.map": "/static/js/main.bed9f330.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.377745f1.css",
+    "static/js/main.bed9f330.js"
+  ]
+}
